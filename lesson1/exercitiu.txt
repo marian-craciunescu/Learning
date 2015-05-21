@@ -1,0 +1,11 @@
+1) se va crea un nou fisier tema1.c (ai ca model fisierul helloworld.c)
+2) Se va compila cu gcc  si programul  se va numi tema1.exe (se specificat cu -o)
+
+3) Sa se creeze un nou program care sa printeze:
+a) 3 intregi cu valorile 2, 4, 6
+b) un string cu valoarea "GICU ARE MERE"
+c) sa se printeze pe acelasi rand valorile 2 , 2.4 si "Scularie"
+
+4) se va rula executabilul creat la pasul 2
+
+
