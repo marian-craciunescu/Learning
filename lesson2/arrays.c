@@ -16,11 +16,29 @@ int main()
 	
 	//generare numar random intre 0 si 99
 	int r = rand() % 100;
-	for (r)
+	for (r = 0; r < var_dimensiune; r++) //generare numere random de la 0 la ce valoare da userul ,in vector
+	{
+		int variabila_rand = rand() %10; //declarare variabila random din vector si atribuire de la 0 la 9
+		vector[r] = variabila_rand; //umplere vector
+		printf ("%i ", vector[r]); 
+	}
+	printf ( "\n");
+	printf ("Numerele multiplu de 3 sunt: \n");
+	for (r=0; r < var_dimensiune; r++)
+	{
+		
+		if (vector[r]%3==0) // conditie multiplu de 3
+		{
+			
+			printf("%i ", vector[r]);
+		
+		}
+	
+	}
+	printf("\n");
 	
 	
-	
-	//declarare vector
+/*	//declarare vector
 	int nume_variabila_vector[5]={4,5,6,7};
 	//atribuire vector
 	nume_variabila_vector[4]=8;
@@ -76,6 +94,8 @@ int main()
 	}
 	
 	printf ("\n");
+	
+	*/
 	
 	return 0;
 }
