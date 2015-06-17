@@ -1,0 +1,9 @@
+1) Sa se scrie o bucata de cod care intoarce numarul de aparitii al unui caracter intr-un string.Ex 'a' in "aaabbba" intoarce 4
+
+2) Sa se scrie o bucata de cod care intoarcere indexul primei aparitii al unui caracter intr-un string sau -1 daca caracterul nu e gasit.Ex 'a' in dddabcaa" intoarce 3.
+
+3) Sa se inlocuiasca toate vocala dintr-un string cu caracterul *.Ex "abcdef" devine "*bcd*f"
+
+4) HARD . Sa se verifice daca un string este continut de alt String ( vezi internet substring implementation in C"
+
+Have fun
